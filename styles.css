@@ -1,0 +1,33 @@
+@media (width<480px) {
+    body {
+        background-color: red;
+    }
+    #medium {
+        display:none;
+    }
+    #large {
+        display:none;
+    }
+}
+@media (width>=480px) and (width<1024px) {
+    body {
+        background-color: green;
+    }
+    #small {
+        display:none;
+    }
+    #large {
+        display:none;
+    }
+}
+@media (width>=1024px) {
+    body {
+        background-color: blue;
+    }
+    #small {
+        display:none;
+    }
+    #medium {
+        display:none;
+    }
+}
